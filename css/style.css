@@ -1,5 +1,9 @@
 body {
-  margin-left: 10%;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  margin: 5%;
 }
 .me {
   width: 10em;
@@ -15,10 +19,14 @@ h2 {
 }
 h2 {
   color: gray;
+  /*  border-bottom: 1px solid grey; */
+  padding-bottom: 5%;
 }
 nav div {
   background: silver;
   margin: 1px;
+  font-size: 1.5em;
+  padding: 2%;
 }
 a div {
   color: white;
@@ -26,11 +34,19 @@ a div {
 a {
   text-decoration: none;
 }
+nav a {
+  font-weight: bolder;
+}
+
+.lebenslauf {
+  padding-bottom: 80%;
+}
+
 .dci {
   color: rgb(34, 255, 233);
 }
-
 /* ============================== */
+
 /* SkillsBar Stylling  */
 
 .skillBox {
@@ -75,4 +91,6 @@ a {
 .favtext {
   font-size: 2em;
   color: gray;
+  line-height: 48px;
+  vertical-align: top;
 }
